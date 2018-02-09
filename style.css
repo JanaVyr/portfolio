@@ -565,7 +565,10 @@ a:hover { color: #de4949; }
     justify-items: center;
 }
 
-.detail-component { margin: 10px; }
+.detail-component { 
+    display: inline-block; 
+	margin: 10px;
+}
 
 .detail-link {
 	color: #f4f4f3;
@@ -577,13 +580,13 @@ a:hover { color: #de4949; }
 
 
 .bg-dark_grey { 
-	background: #404040;
+	background: #5a5959;
     color: #f4f4f3;
+    box-shadow: inset 0px 0px 100px #333333;
 }
 
 .bg-light_grey { 
 	background: #f4f4f3;
     color: #404040; 
+    box-shadow: inset 0px 0px 100px #757471;
 }
-
-

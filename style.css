@@ -467,7 +467,15 @@ body {
 
 h2 { font-size: 2em; }
 
-a { text-decoration: none; }
+a { 
+	font-size: 25px;
+	font-weight: 700;
+	color: inherit;
+	margin-right: 10px;
+	margin-left: 10px; 
+	text-decoration: none;
+}
+
 a:hover { color: #de4949; }
 
 /***HEADER***/
@@ -491,7 +499,7 @@ a:hover { color: #de4949; }
     top: 60px;
     bottom: 0;
     z-index: -1;
-    color: #50484812;
+    color: #5048481f;
     font-size: 160px;
 }
 
@@ -500,7 +508,7 @@ a:hover { color: #de4949; }
     position: absolute;
     bottom: 200px;
     z-index: -1;
-    color: #50484812;
+    color: #5048481f;
     font-size: 260px;
     transform: rotate(-90deg);
 }
@@ -530,13 +538,13 @@ a:hover { color: #de4949; }
     border-bottom: 1px solid #7f7c7c;
 }
 
-.header-link {
+/*.header-link {
 	font-size: 25px;
 	font-weight: 700;
 	color: inherit;
 	margin-right: 10px;
 	margin-left: 10px;
-}
+}*/
 
 
 /****DETAIL***/
@@ -575,6 +583,38 @@ a:hover { color: #de4949; }
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+/***FOOTER****/
+
+.footer {
+	color: grey;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.footer::before {
+	content: "Flex-box";
+    position: absolute;
+    left: 0px;
+    top: -78px;
+    bottom: 0;
+    z-index: -1;
+    color: #5048481f;
+    font-size: 160px;
+}
+
+.footer::after {
+	content: "PHP";
+    position: absolute;
+    right: 0px;
+    bottom: -60px;
+    z-index: -1;
+    color: #5048481f;
+    font-size: 160px;
+}
+
 
 /***colors***/
 

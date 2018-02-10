@@ -595,7 +595,7 @@ a:hover { color: #de4949; }
 }
 
 
-@media all and (max-height: 640px) {
+@media all and (max-height: 800px) {
 	.detail-content { 
 		height: auto;
 		grid-auto-rows: 300px;
@@ -607,12 +607,15 @@ a:hover { color: #de4949; }
 	.detail-content { 
 		grid-template-columns: repeat(2, 1fr);
 		height: auto;
-		grid-auto-rows: 300px;
+		grid-auto-rows: 370px;
 	}
 }
 
 @media all and (max-width: 720px) {
-	.detail-content { grid-template-columns: 1fr; }
+	.detail-content { 
+		grid-template-columns: 1fr;
+		height: auto;
+		grid-auto-rows: 300px; }
 }
 
 @media all and (max-width: 630px) {

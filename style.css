@@ -622,7 +622,7 @@ a:hover { color: #de4949; }
 }
 
 /*prohodit pořadí*/
-@media all and (max-width: 1000px) {
+@media all and (max  -width: 1000px) {
     .detail-content { 
         grid-template-columns: repeat(2, 1fr);
         height: auto;
@@ -647,7 +647,7 @@ a:hover { color: #de4949; }
 .detail-block {
     background: #5a5959;
     color: #f4f4f3;
-    box-shadow: inset 0px 0px 100px #333333;
+    box-shadow: inset 0 0 100px #333333;
     text-align: center;
     padding: 1.25rem;
     display: grid;
@@ -659,7 +659,7 @@ a:hover { color: #de4949; }
     .detail-block:nth-child(2n) {
         background: #f4f4f3;
         color: #404040; 
-        box-shadow: inset 0px 0px 100px #757471;
+        box-shadow: inset 0 0 100px #757471;
     }
 }
 
@@ -668,7 +668,7 @@ a:hover { color: #de4949; }
     .detail-block:nth-child(4n) {
         background: #f4f4f3;
         color: #404040; 
-        box-shadow: inset 0px 0px 100px #757471;
+        box-shadow: inset 0 0 100px #757471;
     }
 }
 
@@ -694,7 +694,7 @@ a:hover { color: #de4949; }
 .footer::before {
     content: "Flex-box";
     position: fixed;
-    left: 0px;
+    left: 0;
     bottom: 0;
     z-index: -1;
     color: rgba(80, 72, 72, 0.09);
@@ -704,7 +704,7 @@ a:hover { color: #de4949; }
 .footer::after {
     content: "PHP";
     position: fixed;
-    right: 0px;
+    right: 0;
     bottom: -60px;
     z-index: -1;
     color: rgba(80, 72, 72, 0.09);
@@ -724,13 +724,3 @@ a:hover { color: #de4949; }
     margin-left: 0.625rem;
 }
 
-/*********/
-
-@media all and (max-width: 800px) {
-    .header-ab::before,
-    .header-ab::after,
-    .footer::before,
-    .footer::after { 
-        display: none;
-    }
-}

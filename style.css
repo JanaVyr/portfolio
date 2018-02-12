@@ -516,7 +516,7 @@ a:hover { color: #de4949; }
     top: 60px;
     bottom: 0;
     z-index: -1;
-    color: #50484817;
+    color: rgba(80, 72, 72, 0.09);
     font-size: 160px;
 }
 
@@ -526,7 +526,7 @@ a:hover { color: #de4949; }
     bottom: 200px;
     right: 58px;
     z-index: -1;
-    color: #7627271f;
+    color: rgba(118, 39, 39, 0.12);
     font-size: 260px;
     transform: rotate(-90deg);
 }
@@ -697,9 +697,9 @@ a:hover { color: #de4949; }
     left: 0px;
     bottom: 0;
     z-index: -1;
-    color: #50484817;
+    color: rgba(80, 72, 72, 0.09);
     font-size: 160px;
-}
+} 
 
 .footer::after {
     content: "PHP";
@@ -707,7 +707,7 @@ a:hover { color: #de4949; }
     right: 0px;
     bottom: -60px;
     z-index: -1;
-    color: #50484817;
+    color: rgba(80, 72, 72, 0.09);
     font-size: 160px;
 }
 

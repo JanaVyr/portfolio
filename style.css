@@ -482,7 +482,6 @@ a {
 
 a:hover { color: #de4949; }
 
-
 /***HEADER***/
 
 .header {
@@ -566,26 +565,13 @@ a:hover { color: #de4949; }
     border-bottom: 1px solid #7f7c7c;
 }
 
-.header-box {
-    width: 100%;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-}
-
 @media all and (max-width: 720px) {
-    .header-box { display: none; }
-}
-
-.header-input {
-    width: 5rem;
-    height: 6.25rem;
-    position: relative;
+    .header-arrow { display: none; }
 }
 
 .header-arrow {
     position: absolute;
-    top: 7.5rem;
+    bottom: 5.5rem;s
 }
 
 .header-arrow-link {

@@ -476,7 +476,6 @@ body {
 h2 { font-size: 2rem; }
 
 a { 
-    font-size: 1.5625rem;
     font-weight: 700;
     color: inherit;
     margin-right: 0.625rem;
@@ -541,6 +540,7 @@ a:hover { color: #de4949; }
     font-family: 'Rammetto One', 'Roboto', sans-serif;
     font-weight: 400;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media all and (max-width: 630px) {
@@ -585,6 +585,10 @@ a:hover { color: #de4949; }
     font-size: 6.25rem;
     color: #404040;
     text-decoration: none;
+}
+
+.header-link {
+    font-size: 1.5625em;
 }
 
 /****DETAIL***/
@@ -633,7 +637,7 @@ a:hover { color: #de4949; }
 
 .detail-block {
     text-align: center;
-    padding: 1.25em;
+    padding: 1.25rem;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -645,6 +649,7 @@ a:hover { color: #de4949; }
 }
 
 .detail-link {
+    font-size: 1.5625em;
     color: #f4f4f3;
     margin-right: 0.625em;
     margin-left: 0.625em;
@@ -655,8 +660,8 @@ a:hover { color: #de4949; }
 .footer {
     color: grey;
     text-align: center;
-    padding-top: 3.125rem;
-    padding-bottom: 3.125rem;
+    padding-top: 3.125em;
+    padding-bottom: 3.125em;
     position: relative;
 }
 
@@ -678,6 +683,10 @@ a:hover { color: #de4949; }
     z-index: -1;
     color: #50484817;
     font-size: 160px;
+}
+
+.footer-link {
+    font-size: 1.5625em;
 }
 
 

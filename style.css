@@ -478,8 +478,6 @@ h2 { font-size: 2rem; }
 a { 
     font-weight: 700;
     color: inherit;
-    /*margin-right: 0.625rem;
-    margin-left: 0.625rem; */
 }
 
 a:hover { color: #de4949; }
@@ -621,8 +619,7 @@ a:hover { color: #de4949; }
     }
 }
 
-/*prohodit pořadí*/
-@media all and (max  -width: 1000px) {
+@media all and (max-width: 1000px) {
     .detail-content { 
         grid-template-columns: repeat(2, 1fr);
         height: auto;

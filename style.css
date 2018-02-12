@@ -461,19 +461,19 @@ template {
 *
 */
 
+
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
 }
 
 @media all and (max-width: 630px) {
     body { font-size: 0.8rem; }
 }
 
-h2 { font-size: 2em; }
+h2 { font-size: 2rem; }
 
 a { 
-    font-size: 1.5625em;
+    font-size: 1.5625rem;
     font-weight: 700;
     color: inherit;
     margin-right: 10px;
@@ -535,7 +535,7 @@ a:hover { color: #de4949; }
 }
 
 .header-headline { 
-    font-size: 5em;
+    font-size: 5rem;
     font-family: 'Rammetto One', cursive;
     font-weight: 400;
     margin-bottom: 30px;
@@ -543,12 +543,12 @@ a:hover { color: #de4949; }
 }
 
 @media all and (max-width: 630px) {
-    .header-headline { font-size: 3em; }
+    .header-headline { font-size: 3rem; }
 }
 
 .header-subtitle {
     color: #383535;
-    font-size: 1.875em;
+    font-size: 1.875rem;
     font-family: 'Roboto', sans-serif;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -568,18 +568,18 @@ a:hover { color: #de4949; }
 }
 
 .header-input {
-    width: 5em;
-    height: 6.25em;
+    width: 5rem;
+    height: 6.25rem;
     position: relative;
 }
 
 .header-arrow {
     position: absolute;
-    top: 7.5em;
+    top: 7.5rem;
 }
 
 .arrow-link {
-    font-size: 6.25em;
+    font-size: 6.25rem;
     color: #404040;
 }
 

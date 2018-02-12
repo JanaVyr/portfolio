@@ -502,8 +502,7 @@ a:hover { color: #de4949; }
 @media all and (max-width: 630px) {
     .header { 
         height: auto;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 100px 20px;
     }
 }
 
@@ -660,8 +659,7 @@ a:hover { color: #de4949; }
 .footer {
     color: grey;
     text-align: center;
-    padding-top: 3.125em;
-    padding-bottom: 3.125em;
+    padding: 3.125em 20px;
     position: relative;
 }
 

@@ -635,9 +635,10 @@ a:hover {
 .header {
     color: rgba(255, 255, 255, 0.78);
     background-color: rgba(57, 4, 19, 0.9);
-    background-image: /*linear-gradient(rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)),*/ url(images/3.jpg);
+    background-image: /*linear-gradient(rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)),*/ url(images/header-background.jpg);
     background-repeat: none;
     background-size: cover;
+    background-position: center center;
     text-align: center;
     height: 100vh;
     width: 100%;
@@ -652,8 +653,14 @@ a:hover {
 @media all and (max-width: 630px) {
     .header {
         height: auto;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media all and (max-height: 1005px) {
+    .header {
+        height: auto;
     }
 }
 
@@ -661,8 +668,13 @@ a:hover {
     max-width: 1040px;
     margin-right: auto;
     margin-left: auto;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.71);
+}
+
+@media all and (max-width: 630px) {
+    .header-content { padding-bottom: 0; }
 }
 
 .header-headline {
@@ -671,6 +683,8 @@ a:hover {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 @media all and (max-width: 653px) {
@@ -683,12 +697,21 @@ a:hover {
     color: inherit;
     font-size: 1.875rem;
     font-family: 'Roboto', sans-serif;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 0.5em 30px;
     margin-top: 1.875em;
     margin-bottom: 1.875em;
     border-top: 1px solid #7f7c7c;
     border-bottom: 1px solid #7f7c7c;
+}
+
+.header-personal-photo {
+    width: 100%;
+    max-width: 630px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .header-arrow {

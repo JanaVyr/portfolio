@@ -628,7 +628,10 @@ a:hover {
     color: #de4949;
 }
 
-ul { list-style-type: none; }
+ul { 
+    list-style-type: none;
+    padding-left: 0;
+}
 
 
 
@@ -773,7 +776,6 @@ ul { list-style-type: none; }
     text-align: center;
     color: #000;
     padding: 100px 20px;
-    /*background-image: url(images/www.domynadparkem.cz.png), url(images/neostavebni.cz.png), url(images/veronikamaresova.cz.png),url(images/uxreaders.devel.png);*/
 }
 
 .my-work-content {
@@ -781,15 +783,21 @@ ul { list-style-type: none; }
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-auto-rows: auto;
-    grid-gap: 4rem;
+    grid-gap: 4rem;*/
 }
 
 .my-work-component {
     text-align: left;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3rem;
 }
+
+.my-work-component:nth-child(2n) {text-align: right;}
 
 .my-work-link {
     color: inherit;
@@ -799,7 +807,7 @@ ul { list-style-type: none; }
 .my-work-img {
     width: 100%;
     height: auto;
-    margin-top: 30px;
+    border: 1px solid #cdb4b4;
 }
 
 /****DETAIL***/

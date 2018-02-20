@@ -898,33 +898,6 @@ ul { list-style-type: none; }
     position: relative;
 }
 
-.footer::before {
-    content: "Flex-box";
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    color: rgba(80, 72, 72, 0.09);
-    font-size: 160px;
-}
-
-.footer::after {
-    content: "PHP";
-    position: fixed;
-    right: 0;
-    bottom: -60px;
-    z-index: -1;
-    color: rgba(80, 72, 72, 0.09);
-    font-size: 160px;
-}
-
-@media all and (max-width: 800px) {
-    .footer::before,
-    .footer::after {
-        display: none;
-    }
-}
-
 .footer-link {
     font-size: 1.5625em;
     margin-right: 0.625rem;

@@ -10,6 +10,7 @@
 
 
 
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 
@@ -34,6 +35,7 @@ html {
 
 
 
+
 /* Sections
    ========================================================================== */
 
@@ -45,6 +47,7 @@ html {
 body {
     margin: 0;
 }
+
 
 
 
@@ -63,6 +66,7 @@ section {
 
 
 
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -72,6 +76,7 @@ h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
+
 
 
 
@@ -93,6 +98,7 @@ main {
 
 
 
+
 /**
  * Add the correct margin in IE 8.
  */
@@ -100,6 +106,7 @@ main {
 figure {
     margin: 1em 40px;
 }
+
 
 
 
@@ -119,6 +126,7 @@ hr {
 
 
 
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -130,6 +138,7 @@ pre {
     font-size: 1em;
     /* 2 */
 }
+
 
 
 
@@ -151,6 +160,7 @@ a {
 
 
 
+
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -167,6 +177,7 @@ abbr[title] {
 
 
 
+
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
@@ -178,6 +189,7 @@ strong {
 
 
 
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
@@ -186,6 +198,7 @@ b,
 strong {
     font-weight: bolder;
 }
+
 
 
 
@@ -205,6 +218,7 @@ samp {
 
 
 
+
 /**
  * Add the correct font style in Android 4.3-.
  */
@@ -212,6 +226,7 @@ samp {
 dfn {
     font-style: italic;
 }
+
 
 
 
@@ -226,6 +241,7 @@ mark {
 
 
 
+
 /**
  * Add the correct font size in all browsers.
  */
@@ -233,6 +249,7 @@ mark {
 small {
     font-size: 80%;
 }
+
 
 
 
@@ -259,6 +276,7 @@ sup {
 
 
 
+
 /* Embedded content
    ========================================================================== */
 
@@ -274,6 +292,7 @@ video {
 
 
 
+
 /**
  * Add the correct display in iOS 4-7.
  */
@@ -282,6 +301,7 @@ audio:not([controls]) {
     display: none;
     height: 0;
 }
+
 
 
 
@@ -295,6 +315,7 @@ img {
 
 
 
+
 /**
  * Hide the overflow in IE.
  */
@@ -302,6 +323,7 @@ img {
 svg:not(:root) {
     overflow: hidden;
 }
+
 
 
 
@@ -331,6 +353,7 @@ textarea {
 
 
 
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -341,6 +364,7 @@ input {
     /* 1 */
     overflow: visible;
 }
+
 
 
 
@@ -357,6 +381,7 @@ select {
 
 
 
+
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
@@ -367,6 +392,7 @@ button,
 html [type="button"],
 
 
+
 /* 1 */
 
 [type="reset"],
@@ -374,6 +400,7 @@ html [type="button"],
     -webkit-appearance: button;
     /* 2 */
 }
+
 
 
 
@@ -391,6 +418,7 @@ button::-moz-focus-inner,
 
 
 
+
 /**
  * Restore the focus styles unset by the previous rule.
  */
@@ -404,6 +432,7 @@ button:-moz-focusring,
 
 
 
+
 /**
  * Correct the padding in Firefox.
  */
@@ -411,6 +440,7 @@ button:-moz-focusring,
 fieldset {
     padding: 0.35em 0.75em 0.625em;
 }
+
 
 
 
@@ -438,6 +468,7 @@ legend {
 
 
 
+
 /**
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
@@ -452,6 +483,7 @@ progress {
 
 
 
+
 /**
  * Remove the default vertical scrollbar in IE.
  */
@@ -459,6 +491,7 @@ progress {
 textarea {
     overflow: auto;
 }
+
 
 
 
@@ -477,6 +510,7 @@ textarea {
 
 
 
+
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
@@ -485,6 +519,7 @@ textarea {
 [type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
+
 
 
 
@@ -502,6 +537,7 @@ textarea {
 
 
 
+
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
@@ -510,6 +546,7 @@ textarea {
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
+
 
 
 
@@ -527,6 +564,7 @@ textarea {
 
 
 
+
 /* Interactive
    ========================================================================== */
 
@@ -539,11 +577,13 @@ textarea {
 details,
 
 
+
 /* 1 */
 
 menu {
     display: block;
 }
+
 
 
 
@@ -554,6 +594,7 @@ menu {
 summary {
     display: list-item;
 }
+
 
 
 
@@ -571,6 +612,7 @@ canvas {
 
 
 
+
 /**
  * Add the correct display in IE.
  */
@@ -578,6 +620,7 @@ canvas {
 template {
     display: none;
 }
+
 
 
 
@@ -592,6 +635,7 @@ template {
 [hidden] {
     display: none;
 }
+
 
 
 
@@ -628,10 +672,11 @@ a:hover {
     color: #de4949;
 }
 
-ul { 
+ul {
     list-style-type: none;
     padding-left: 0;
 }
+
 
 
 
@@ -640,7 +685,8 @@ ul {
 .header {
     color: rgba(255, 255, 255, 0.78);
     background-color: rgba(57, 4, 19, 0.9);
-    background-image: /*linear-gradient(rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)),*/ url(images/header-background.jpg);
+    background-image: /*linear-gradient(rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)),*/
+    url(images/header-background.jpg);
     background-repeat: none;
     background-size: cover;
     background-position: center center;
@@ -679,7 +725,9 @@ ul {
 }
 
 @media all and (max-width: 630px) {
-    .header-content { padding-bottom: 0; }
+    .header-content {
+        padding-bottom: 0;
+    }
 }
 
 .header-headline {
@@ -745,15 +793,25 @@ ul {
 }
 
 @keyframes rotate {
-    0% { transform: rotate(0); }
+    0% {
+        transform: rotate(0);
+    }
 
-    25% { transform: rotate(40deg); }
+    25% {
+        transform: rotate(40deg);
+    }
 
-    50% { transform: rotate(-40deg); }
+    50% {
+        transform: rotate(-40deg);
+    }
 
-    75% { transform: rotate(20deg); }
+    75% {
+        transform: rotate(20deg);
+    }
 
-    100% { transform: rotate(0); }
+    100% {
+        transform: rotate(0);
+    }
 }
 
 .header-arrow-link {
@@ -769,7 +827,9 @@ ul {
     margin-left: 0.625rem;
 }
 
+
 /*****MY-WORK*****/
+
 .my-work {
     width: 100%;
     height: auto;
@@ -796,23 +856,28 @@ ul {
 }
 
 @media all and (max-width: 705px) {
-    .my-work-component { grid-gap: 1rem; }
-} 
+    .my-work-component {
+        grid-gap: 1rem;
+    }
+}
 
 .my-work-component:nth-child(2n) {
-        text-align: right;
-        align-items: center;
-    }
+    text-align: right;
+    align-items: center;
+}
 
 @media all and (max-width: 705px) {
-    .my-work-component:nth-child(2n),.my-work-component {
+    .my-work-component:nth-child(2n),
+    .my-work-component {
         text-align: center;
         align-items: center;
     }
-}    
+}
 
 @media all and (min-width: 705px) {
-    .my-work-order { order: 1; }
+    .my-work-order {
+        order: 1;
+    }
 }
 
 .my-work-link {
@@ -825,6 +890,7 @@ ul {
     height: auto;
     border: 1px solid #cdb4b4;
 }
+
 
 /****DETAIL***/
 
@@ -878,7 +944,8 @@ ul {
     justify-items: center;
 }
 
-@media all and (max-width: 720px),(min-width: 1001px) {
+@media all and (max-width: 720px),
+(min-width: 1001px) {
     .detail-block:nth-child(2n) {
         background: #f4f4f3;
         color: #404040;
@@ -910,6 +977,7 @@ ul {
     font-size: 1.3em;
     color: #f4f4f3;
 }
+
 
 
 

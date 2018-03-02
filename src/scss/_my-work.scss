@@ -23,10 +23,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 3rem;
-}
 
-@media all and (max-width: 705px) {
-    .my-work-component {
+    @media all and (max-width: 705px) {
         grid-gap: 1rem;
     }
 }

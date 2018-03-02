@@ -4,13 +4,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
 
-@media all and (max-width: 653px) {
-    body {
+    @media all and (max-width: 653px) {
         font-size: 0.8rem;
     }
 }
+
 
 h2 {
     font-size: 2rem;

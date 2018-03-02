@@ -149,7 +149,8 @@ gulp.task(
                         // shows file named another-page.html
                         extensions: ['html']
                     }
-                }
+                },
+                port: 8580
             });
             gulp.watch('src/scss/**/*', gulp.series('css:compile')); // watch for changes in SCSS
             gulp.watch('src/templates/**/*', gulp.series('html:compile')); // watch for changes in templates
@@ -168,7 +169,7 @@ gulp.task(
             return surge({
                 project: 'dist',
                 // change to your domain
-                domain: 'https://my-first-website.surge.sh'
+                domain: 'https://4392.surge.sh',
                 // note 1: URL must end .surge.sh if you haven’t bought yours and configured DNS
                 // note 2: https for custom domains is a paid feature
             })
